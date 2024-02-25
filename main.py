@@ -1,8 +1,6 @@
 import os
 import requests
 from redmail import EmailSender
-from dotenv import load_dotenv
-from dotenv import find_dotenv
 
 # Define your GitHub username
 username = "sumonta056"
