@@ -23,5 +23,5 @@ jobs:
         env:
           PASSWORD: ${{ secrets.PASSWORD }}
           USEREMAIL: ${{ secrets.USEREMAIL }}
-        run: |
-          python ./main.py
+        run:
+          python main.py
