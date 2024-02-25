@@ -19,14 +19,14 @@ def get_follower_count():
 # Function to read the follower count from a text file
 def read_follower_count_from_file():
     try:
-        with open("follower_count.txt", "r") as file:
+        with open(".github/workflows/follower_count.txt", "r") as file:
             return int(file.read().strip())
     except FileNotFoundError:
         return 0
 
 # Function to update the follower count in the text file
 def update_follower_count_in_file(count):
-    with open("follower_count.txt", "w") as file:
+    with open(".github/workflows/follower_count.txt", "w") as file:
         file.write(str(count))
 
 def send_email(body,subject):
