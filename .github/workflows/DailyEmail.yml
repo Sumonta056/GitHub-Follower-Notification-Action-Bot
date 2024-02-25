@@ -6,13 +6,17 @@ on:
     - cron: '0 0 * * *' # This triggers the workflow daily at 12:00 AM UTC
 
 jobs:
-  send_email:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: Set up Python
-        uses: actions/setup-python@v2
+
+      - name: checkout repo content
+        uses: actions/checkout@v2 # checkout the repository content to github runner
+
+      - name: setup python
+        uses: actions/setup-python@v4
         with:
-          python-version: '3.x'
+          python-version: '3.9'
 
       - name: Install dependencies
         run: |
@@ -23,5 +27,4 @@ jobs:
         env:
           PASSWORD: ${{ secrets.PASSWORD }}
           USEREMAIL: ${{ secrets.USEREMAIL }}
-        working-directory: '' # Add the working-directory key
         run: python main.py
