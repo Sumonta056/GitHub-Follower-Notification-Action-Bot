@@ -1,0 +1,26 @@
+name: Daily Email
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # This triggers the workflow daily at 12:00 AM UTC
+
+jobs:
+  send_email:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.11.2'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests redmail
+
+      - name: Send email
+        env:
+          PASSWORD: ${{ secrets.PASSWORD }}
+          USEREMAIL: ${{ secrets.USEREMAIL }}
+        run: |
+          python main.py

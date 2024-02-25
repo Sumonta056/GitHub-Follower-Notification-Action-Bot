@@ -31,10 +31,8 @@ def update_follower_count_in_file(count):
 
 def send_email(body,subject):
     # Send email notification
-    env_file = find_dotenv("value.env")
-    load_dotenv(env_file)
-    username = os.getenv("USEREMAIL")
-    password = os.getenv("PASSWORD")
+    username = os.environ.get("USEREMAIL")
+    password = os.environ.get("PASSWORD")
 
     email = EmailSender(
         host='smtp.gmail.com',
