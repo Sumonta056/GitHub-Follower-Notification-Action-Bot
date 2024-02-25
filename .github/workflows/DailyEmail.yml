@@ -24,4 +24,4 @@ jobs:
           PASSWORD: ${{ secrets.PASSWORD }}
           USEREMAIL: ${{ secrets.USEREMAIL }}
         run: |
-          python ../main.py
+          python ./main.py
