@@ -5,6 +5,10 @@ on:
   schedule:
     - cron: "0 0 * * *" # This triggers the workflow daily at 12:00 AM UTC
 
+permissions:                    # Global permissions configuration starts here
+  contents: write               # 'read' access to repository contents
+  pull-requests: write  
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -28,15 +32,21 @@ jobs:
           USEREMAIL: ${{ secrets.USEREMAIL }}
         run: python main.py
 
-      - name: commit files
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal access token.
+          fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
+
+      - name: Create local changes
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add -A
-          git diff-index --quiet HEAD || (git commit -a -m "Updating Local Files" --allow-empty)
-          
-      - name: push changes
-        uses: ad-m/github-push-action@v0.6.0
+          ...
+      - name: Commit files
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git commit -a -m "Add changes"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GH_TOKEN }}
-          branch: main 
+          branch: ${{ github.ref }}
