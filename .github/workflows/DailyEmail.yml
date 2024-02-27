@@ -35,15 +35,14 @@ jobs:
           USEREMAIL: ${{ secrets.USEREMAIL }}
         run: python main.py
 
-      - name: Commit files
+      - name: commit files
+        env:
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
         run: |
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
+          git config user.name github-actions
+          git config user.email github-actions@github.com
           git add .
-          git commit -a -m "Add changes"
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.TOKEN }}
-          repository: Sumonta056/GitFollower-Email-Alert-Automation
-          force_with_lease: true
+          git commit -m "generated"
+          git branch -M main
+          git push
+  
