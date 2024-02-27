@@ -39,10 +39,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add .
-          git commit -m "generated"
-          git branch -M main
+          git config --local user.email "sumontasaha80@gmail.com"
+          git config --local user.name "sumonta056"
+          git add -A
+          git remote set-url --push origin https://sumonta056:$GITHUB_TOKEN@github.com/Sumonta056/GitFollower-Email-Alert-Automation
+          git commit -am "Automated changes"
           git push
-  
