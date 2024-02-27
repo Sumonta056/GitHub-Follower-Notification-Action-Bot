@@ -36,12 +36,14 @@ jobs:
         run: python main.py
 
       - name: commit files
-        env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN }}
         run: |
-          git config --local user.email "sumontasaha80@gmail.com"
-          git config --local user.name "sumonta056"
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
           git add -A
-          git remote set-url --push origin https://sumonta056:$GITHUB_TOKEN@github.com/Sumonta056/GitFollower-Email-Alert-Automation
-          git commit -am "Automated changes"
-          git push
+          git diff-index --quiet HEAD || (git commit -a -m "updated logs" --allow-empty)
+          
+      - name: push changes
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.TOKEN }}
+          branch: main 
