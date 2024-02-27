@@ -28,15 +28,15 @@ jobs:
           USEREMAIL: ${{ secrets.USEREMAIL }}
         run: python main.py
 
-      - name: Commit Files
-        uses: EndBug/add-and-commit@v9
+      - name: commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git diff-index --quiet HEAD || (git commit -a -m "Updating Local Files" --allow-empty)
+          
+      - name: push changes
+        uses: ad-m/github-push-action@v0.6.0
         with:
-          author_name: sumonta056
-          author_email: sumonta056@gmail.com
-          message: "Follower Bot Running on GitHub"
-          default_author: github_actor
-          push: true
-          fetch: false
-          committer_name: GitHub Actions
-          committer_email: actions@github.com
-            
+          github_token: ${{ secrets.GH_TOKEN }}
+          branch: main 
