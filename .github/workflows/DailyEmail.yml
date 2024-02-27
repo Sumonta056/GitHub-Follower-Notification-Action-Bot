@@ -44,4 +44,6 @@ jobs:
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
-          github_token: ${{ secrets.TOKEN }}
+          github_token: ${{ secrets.PAT_TOKEN }}
+          repository: Sumonta056/GitFollower-Email-Alert-Automation
+          force_with_lease: true
