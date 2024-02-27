@@ -30,7 +30,8 @@ jobs:
 
       - name: Commit Files
         uses: EndBug/add-and-commit@v9
-        author_name: sumonta056
-        author_email: sumonta056@gmail.com
-        message: "Follower Bot Running on GitHub"
-        push: true
+        with:
+          author_name: sumonta056
+          author_email: sumonta056@gmail.com
+          message: "Follower Bot Running on GitHub"
+          push: true
