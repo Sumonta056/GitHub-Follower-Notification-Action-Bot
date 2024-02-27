@@ -5,9 +5,9 @@ on:
   schedule:
     - cron: "0 0 * * *" # This triggers the workflow daily at 12:00 AM UTC
 
-permissions:                    # Global permissions configuration starts here
-  contents: write               # 'read' access to repository contents
-  pull-requests: write  
+permissions: # Global permissions configuration starts here
+  contents: write # 'read' access to repository contents
+  pull-requests: write
 
 jobs:
   build:
@@ -35,7 +35,6 @@ jobs:
           USEREMAIL: ${{ secrets.USEREMAIL }}
         run: python main.py
 
-      
       - name: Commit files
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -45,5 +44,6 @@ jobs:
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
-          github_token: ${{ secrets.GH_TOKEN }}
+          github_token: ${{ secrets.TOKEN }}
           branch: ${{ github.ref }}
+          force: true
