@@ -34,4 +34,7 @@ jobs:
           author_name: sumonta056
           author_email: sumonta056@gmail.com
           message: "Follower Bot Running on GitHub"
+          default_author: github_actions
           push: true
+          committer_name: GitHub Actions
+          committer_email: actions@github.com
