@@ -1,33 +1,33 @@
 <div align = "center">
 
-## 🤖 GitHub Follower Notification Action-Bot 🤖
+# 🤖 GitHub Follower Notification Action-Bot 🤖
 
 ------ **📚 Keep track of GitHub followers with automated notification bot 📚** ------
 
-Introducing the GitHub Follower Notification Action-Bot, your faithful companion in keeping track of your GitHub followers effortlessly. This innovative project brings the power of automation to your GitHub experience, ensuring you never miss a beat when it comes to engaging with your followers.
+*Introducing the GitHub Follower Notification Action-Bot, your faithful companion in keeping track of your GitHub followers effortlessly. This innovative project brings the power of automation to your GitHub experience, ensuring you never miss a beat when it comes to engaging with your followers.*
 
-#### ✍️ **How it Looks : Feature - 1 (Daily Emails)**
+### ✍️ **How it Looks : Feature - 1 (Daily Emails)**
 
 ![alt text](./assets/image.png)
 
-#### ✍️ **How it Looks : Feature - 2 (New Follower Special Email)**
+### ✍️ **How it Looks : Feature - 2 (New Follower Special Email)**
 
 ![alt text](./assets/image-1.png)
 
-#### 🔃 More Features Coming Soon
+### 🔃 More Features Coming Soon
 
 <hr>
 </div>
 
-# 🌲 How to configure for the project for your profile
+# 🌱 How to configure for the project for your profile
 
 <hr>
 
-### 🌲 Clone and Upload Repository
+### 1️⃣ Clone and Upload Repository
 
 - **👉 Clone The Repository**
 
-### 🌲 Setup Environment and Scret Variables
+### 2️⃣ Setup Environment and Scret Variables
 
 - **👉 Add Your Email Address**
 
@@ -37,7 +37,7 @@ Introducing the GitHub Follower Notification Action-Bot, your faithful companion
 
 - **👉 Add Github Token API**
 
-### 🌲 Modification in Code
+### 3️⃣ Modification in Code
 
 - **👉 Change the Email Address in the Code**
 
