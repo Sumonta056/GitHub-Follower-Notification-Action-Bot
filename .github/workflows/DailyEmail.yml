@@ -3,7 +3,8 @@ name: Daily Email
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *" # This triggers the workflow daily at 12:00 AM UTC
+     # runs at 12 AM UTC (5:30 AM IST)
+    - cron: "0 0 * * *"
 
 permissions: # Global permissions configuration starts here
   contents: write # 'read' access to repository contents
