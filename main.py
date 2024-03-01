@@ -28,7 +28,7 @@ def update_follower_count_in_file(count):
     with open(".github/workflows/follower_count.txt", "w") as file:
         file.write(str(count))
 
-def send_email(body,subject,name,follow):
+def send_email(body,subject,name,follow,link):
     # Send email notification
     username = os.environ.get("USEREMAIL")
     password = os.environ.get("PASSWORD")
@@ -60,7 +60,6 @@ saved_followers = read_follower_count_from_file()
 # Compare follower counts and send email if current count is greater
 if current_followers > saved_followers:
     subject = "🎉 Congratulations! You Have a New Follower on GitHub! 🚀"
-    link = "https://github.com/{username}?tab=followers"
     html = """
      <div style="max-width: 600px; margin: 0 auto; background-color: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
         <h1 style="color: #333;">Hi {{username}} 👋👋,</h1>
@@ -88,15 +87,13 @@ if current_followers > saved_followers:
         </div>
     """
 
-    send_email(html, subject,username,current_followers)
+    send_email(html, subject,username,current_followers,link)
 
     # Update follower count in the file
     update_follower_count_in_file(current_followers)
 
 elif current_followers < saved_followers:
-    subject = "Oh No! You've Lost a Follower on GitHub 😔"
-    
-    
+    subject = "🥺 Oh No! You've Lost a Follower on GitHub 😔"
     html = """
      <div style="max-width: 600px; margin: 0 auto; background-color: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
         <h1 style="color: #333;">Hi {{username}} 👋👋,</h1>
@@ -128,14 +125,13 @@ elif current_followers < saved_followers:
         </div>
     """
 
-    send_email(html, subject,username,current_followers)
+    send_email(html, subject,username,current_followers,link)
 
     # Update follower count in the file
     update_follower_count_in_file(current_followers)
     
 else:
     subject = "🚀 Your GitHub Follower Count Update 🌟"
-    link = "https://github.com/{username}?tab=followers"
     html = """
      <div style="max-width: 600px; margin: 0 auto; background-color: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
         <h1 style="color: #333;">Hi {{username}} 👋👋,</h1>
@@ -155,4 +151,4 @@ else:
         </div>
     """
 
-    send_email(html, subject,username,current_followers)
+    send_email(html, subject,username,current_followers,link)
