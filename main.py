@@ -73,11 +73,10 @@ if current_followers > saved_followers:
 
     <p style="color: #662; font-size: 20px; line-height: 1.6;">Total Followers: {current_followers}</p>
     </div>
-
     """
 
 
-    send_email(body, html)
+    send_email(html, subject)
 
     # Update follower count in the file
     update_follower_count_in_file(current_followers)
