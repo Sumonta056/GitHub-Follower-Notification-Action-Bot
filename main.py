@@ -9,7 +9,7 @@ botmail = "gitfollowernotifierbysumonta56@gmail.com"
 
 # API URL to fetch user data
 api_url = f"https://api.github.com/users/{username}"
-link = "https://github.com/{username}"
+link = f"https://github.com/{username}"
 # Function to get the current follower count from the GitHub API
 def get_follower_count():
     user_data = requests.get(api_url).json()
