@@ -8,7 +8,7 @@
 
 ### ✍️ **How it Looks : Feature - 1 (Daily Emails)**
 
-![alt text](./assets/image.png)
+![alt text](image.png)
 
 ### ✍️ **How it Looks : Feature - 2 (New Follower Special Email)**
 
