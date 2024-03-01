@@ -4,27 +4,26 @@
 
 ------ **📚 Keep track of GitHub followers with automated notification bot 📚** ------
 
-*Introducing the GitHub Follower Notification Action-Bot, your faithful companion in keeping track of your GitHub followers effortlessly. This innovative project brings the power of automation to your GitHub experience, ensuring you never miss a beat when it comes to engaging with your followers.*
+_Introducing the GitHub Follower Notification Action-Bot, your faithful companion in keeping track of your GitHub followers effortlessly. This innovative project brings the power of automation to your GitHub experience, ensuring you never miss a beat when it comes to engaging with your followers._
 
 ### ✍️ **How it Looks : Feature - 1 (Daily Emails)**
 
-![alt text](image.png)
+![alt text](./assets/image.png)
 
 ### ✍️ **How it Looks : Feature - 2 (New Follower Special Email)**
 
-![alt text](image-1.png)
+![alt text](./assets/image-1.png)
 
-### ✍️ **How it Looks : Feature -  (When Somebody Unfollows Special Email)**
+### ✍️ **How it Looks : Feature - 3 (When Somebody Unfollows Special Email)**
 
-![alt text](image-1.png)
-
+![alt text](./assets/image-2.png)
 
 ### 🔃 More Features Coming Soon
 
 <hr>
 </div>
 
-# 🌱 How to configure for the project for your profile
+## 🌱 How to configure for the project for your profile
 
 <hr>
 
