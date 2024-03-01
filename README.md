@@ -12,7 +12,12 @@
 
 ### ✍️ **How it Looks : Feature - 2 (New Follower Special Email)**
 
-![alt text](./assets/image-1.png)
+![alt text](image-1.png)
+
+### ✍️ **How it Looks : Feature -  (When Somebody Unfollows Special Email)**
+
+![alt text](image-1.png)
+
 
 ### 🔃 More Features Coming Soon
 
