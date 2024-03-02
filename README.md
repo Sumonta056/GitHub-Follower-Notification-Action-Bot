@@ -19,6 +19,8 @@ _Introducing the GitHub Follower Notification Action-Bot, your faithful companio
 ![alt text](./assets/image-2.png)
 
 ### 🔃 More Features Coming Soon
+------ **🔜 Followers Information (Who Follows or Unfollows) 🔜** ------
+------ **🔜 More Information (If anyone start your repository) 🔜** ------
 
 <hr>
 </div>
