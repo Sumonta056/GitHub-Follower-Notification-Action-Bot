@@ -19,6 +19,7 @@ _Introducing the GitHub Follower Notification Action-Bot, your faithful companio
 ![alt text](./assets/image-2.png)
 
 ### 🔃 More Features Coming Soon
+
 ------ **🔜 Followers Information (Who Follows or Unfollows) 🔜** ------
 ------ **🔜 More Information (If anyone start your repository) 🔜** ------
 
@@ -29,22 +30,42 @@ _Introducing the GitHub Follower Notification Action-Bot, your faithful companio
 
 <hr>
 
-### 1️⃣ Clone and Upload Repository
+## 1️⃣ Step - 1 : Fork The Repository
 
-- **👉 Clone The Repository**
+![alt text](./tutorials/image.png)
+![alt text](./tutorials/image-1.png)
 
-### 2️⃣ Setup Environment and Scret Variables
+## 2️⃣ Step - 2 : Click and Edit the main.py file ( Change Github Username and Email)
 
-- **👉 Add Your Email Address**
+- **👉 Press the edit button to edit**
+- **👉 Change the Github Username and Email Address in the code**
+- **👉 useremail = botmail = Your Email Address**
+  ![alt text](./tutorials/image3.excalidraw.png)
+  ![alt text](./tutorials/editmainpy.excalidraw.png)
 
-- **👉 Add Your Email Password**
+## 3️⃣ Step - 3 : Need to Create Github Token (Follow The Tutorial)
 
-- **👉 (Don't Everything will be secure by Github)**
+- **👉 Note : Copy Token & Save it : You will this Token later on**
 
-- **👉 Add Github Token API**
+https://github.com/Sumonta056/GitHub-Follower-Notification-Action-Bot/assets/61287791/23bbb751-fb2a-4ab9-b942-1f25f0731b45
 
-### 3️⃣ Modification in Code
+## 4️⃣ Step - 4 : Need to Create a Special App Password using your email address so that bot can access it without breaking your privacy (Follow The Tutorial)
 
-- **👉 Change the Email Address in the Code**
+- **👉 Note : Copy Password, remove the empty space & Save it : You will this App Password later on**
 
-- **👉 Change GitHub Username in the Code**
+- **👉 Change the Expiration date while creating Token : Use 90 Days +**
+  ![alt text](./tutorials/image-4.png)
+
+https://github.com/Sumonta056/GitHub-Follower-Notification-Action-Bot/assets/61287791/bd8a1353-9c37-4114-8bd6-a13820fdab14
+
+## 5️⃣ Step - 5 : You need to add your email address, password and github-token in the project scecret variables (Don't Everything will be secure by Github)
+
+- **👉 Go to Project Setting -> Secrets and variables ->Actions**
+  ![alt text](./tutorials/image-5.png)
+- **👉 Now Need to Create This Secrets with you email , app password we generated earlier and Github Token (Follow The Tutorial)**
+
+## 6️⃣ Step - 6 : Test The Project Setup
+
+## 7️⃣ Step - 7 : Congratulations ! You have successfully setup the project. Now you will daily get a follower message on your Email
+
+<hr>
