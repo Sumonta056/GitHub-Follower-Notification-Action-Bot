@@ -1,3 +1,5 @@
+
+https://github.com/Sumonta056/GitHub-Follower-Notification-Action-Bot/assets/61287791/9172c541-bb13-49fe-8f6a-9c34e4aec324
 <div align = "center">
 
 # 🤖 GitHub Follower Notification Action-Bot 🤖
@@ -64,7 +66,19 @@ https://github.com/Sumonta056/GitHub-Follower-Notification-Action-Bot/assets/612
   ![alt text](./tutorials/image-5.png)
 - **👉 Now Need to Create This Secrets with you email , app password we generated earlier and Github Token (Follow The Tutorial)**
 
+
+
+https://github.com/Sumonta056/GitHub-Follower-Notification-Action-Bot/assets/61287791/1aaa990e-cce4-4878-ab62-c1171c6a5d94
+
+
+
 ## 6️⃣ Step - 6 : Test The Project Setup
+
+
+https://github.com/Sumonta056/GitHub-Follower-Notification-Action-Bot/assets/61287791/32ea4204-7cf4-4ecb-846e-9b79a7c31306
+
+
+
 
 ## 7️⃣ Step - 7 : Congratulations ! You have successfully setup the project. Now you will daily get a follower message on your Email
 
