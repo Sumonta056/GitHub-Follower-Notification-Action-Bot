@@ -17,9 +17,12 @@
 ## Step - 4 : Need to Create a Special App Password using your email address so that bot can access it without breaking your privacy
 - **Note : Copy Password, remove the empty space & Save it : You will this App Password later on**
 
-<video controls>
-  <source src="apptoken.mp4" type="video/mp4">
-</video>
+
+
+https://github.com/Sumonta056/GitHub-Follower-Notification-Action-Bot/assets/61287791/bd8a1353-9c37-4114-8bd6-a13820fdab14
+
+
+
 
 
 ## Step - 4 : You need add your email address, password and github-token in the project scecret variables
