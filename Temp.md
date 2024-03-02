@@ -14,15 +14,15 @@
 ## Step - 3 : Need to Create Github Token (Follow The Tutorial)
 
 
-## Step - 4 : Need to Create a Special App Password using your email address so that bot can access it without breaking your privacy
+https://github.com/Sumonta056/GitHub-Follower-Notification-Action-Bot/assets/61287791/23bbb751-fb2a-4ab9-b942-1f25f0731b45
+
+
+
+## Step - 4 : Need to Create a Special App Password using your email address so that bot can access it without breaking your privacy (Follow The Tutorial)
 - **Note : Copy Password, remove the empty space & Save it : You will this App Password later on**
 
 
-
 https://github.com/Sumonta056/GitHub-Follower-Notification-Action-Bot/assets/61287791/bd8a1353-9c37-4114-8bd6-a13820fdab14
-
-
-
 
 
 ## Step - 4 : You need add your email address, password and github-token in the project scecret variables
