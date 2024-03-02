@@ -93,3 +93,18 @@ https://github.com/Sumonta056/GitHub-Follower-Notification-Action-Bot/assets/612
 ## 7️⃣ Step - 7 : Congratulations ! You have successfully setup the project. Now you will daily get a follower message on your Email
 
 <hr>
+
+## 📚 How to Contribute
+
+Read The Guidelines :  <a href="https://github.com/Sumonta056/GitHub-Follower-Notification-Action-Bot/blob/main/Contribution.md">Here</a>
+
+## 📚 License
+
+This project is licensed under the terms of the MIT license.
+
+<hr>
+
+<div align="center">
+<strong>&copy; 2024 All Rights Reserved by Sumonta Saha Mridul</strong>
+</div>
+
