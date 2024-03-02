@@ -4,7 +4,7 @@
 
 ------ **📚 Keep track of GitHub followers with automated notification bot 📚** ------
 
-_Introducing the GitHub Follower Notification Action-Bot, your faithful companion in keeping track of your GitHub followers effortlessly. This innovative project brings the power of automation to your GitHub experience, ensuring you never miss a beat when it comes to engaging with your followers._
+Introducing the GitHub Follower Notification Action-Bot, your faithful companion in keeping track of your GitHub followers effortlessly. This innovative project brings the power of automation to your GitHub experience, ensuring you never miss a beat when it comes to engaging with your followers.
 
 ### ✍️ **How it Looks : Feature - 1 (Daily Emails)**
 
@@ -30,12 +30,14 @@ _Introducing the GitHub Follower Notification Action-Bot, your faithful companio
 
 <hr>
 
-## 1️⃣ Step - 1 : Fork The Repository
+### 1️⃣ Step - 1 : Fork The Repository
 
 ![alt text](./tutorials/image.png)
 ![alt text](./tutorials/image-1.png)
 
-## 2️⃣ Step - 2 : Click and Edit the main.py file ( Change Github Username and Email)
+<hr>
+
+### 2️⃣ Step - 2 : Click and Edit the main.py file ( Change Github Username and Email)
 
 - **👉 Press the edit button to edit**
 - **👉 Change the Github Username and Email Address in the code**
@@ -43,13 +45,18 @@ _Introducing the GitHub Follower Notification Action-Bot, your faithful companio
   ![alt text](./tutorials/image3.excalidraw.png)
   ![alt text](./tutorials/editmainpy.excalidraw.png)
 
-## 3️⃣ Step - 3 : Need to Create Github Token (Follow The Tutorial)
+  <hr>
+
+### 3️⃣ Step - 3 : Need to Create Github Token (Follow The Tutorial)
 
 - **👉 Note : Copy Token & Save it : You will this Token later on**
 
 https://github.com/Sumonta056/GitHub-Follower-Notification-Action-Bot/assets/61287791/23bbb751-fb2a-4ab9-b942-1f25f0731b45
 
-## 4️⃣ Step - 4 : Need to Create a Special App Password using your email address so that bot can access it without breaking your privacy (Follow The Tutorial)
+<hr>
+
+
+### 4️⃣ Step - 4 : Need to Create a Special App Password using your email address so that bot can access it without breaking your privacy (Follow The Tutorial)
 
 - **👉 Note : Copy Password, remove the empty space & Save it : You will this App Password later on**
 
@@ -58,7 +65,9 @@ https://github.com/Sumonta056/GitHub-Follower-Notification-Action-Bot/assets/612
 
 https://github.com/Sumonta056/GitHub-Follower-Notification-Action-Bot/assets/61287791/bd8a1353-9c37-4114-8bd6-a13820fdab14
 
-## 5️⃣ Step - 5 : You need to add your email address, password and github-token in the project scecret variables (Don't Everything will be secure by Github)
+<hr>
+
+### 5️⃣ Step - 5 : You need to add your email address, password and github-token in the project scecret variables (Don't Everything will be secure by Github)
 
 - **👉 Go to Project Setting -> Secrets and variables ->Actions**
   ![alt text](./tutorials/image-5.png)
@@ -68,9 +77,9 @@ https://github.com/Sumonta056/GitHub-Follower-Notification-Action-Bot/assets/612
 
 https://github.com/Sumonta056/GitHub-Follower-Notification-Action-Bot/assets/61287791/1aaa990e-cce4-4878-ab62-c1171c6a5d94
 
+<hr>
 
-
-## 6️⃣ Step - 6 : Test The Project Setup
+### 6️⃣ Step - 6 : Test The Project Setup
 
 
 
