@@ -1,5 +1,3 @@
-
-https://github.com/Sumonta056/GitHub-Follower-Notification-Action-Bot/assets/61287791/9172c541-bb13-49fe-8f6a-9c34e4aec324
 <div align = "center">
 
 # 🤖 GitHub Follower Notification Action-Bot 🤖
@@ -75,7 +73,9 @@ https://github.com/Sumonta056/GitHub-Follower-Notification-Action-Bot/assets/612
 ## 6️⃣ Step - 6 : Test The Project Setup
 
 
-https://github.com/Sumonta056/GitHub-Follower-Notification-Action-Bot/assets/61287791/32ea4204-7cf4-4ecb-846e-9b79a7c31306
+
+
+https://github.com/Sumonta056/GitHub-Follower-Notification-Action-Bot/assets/61287791/20153151-9962-4f8c-81d4-174eb50eef9f
 
 
 
