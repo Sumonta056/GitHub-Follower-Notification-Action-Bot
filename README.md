@@ -30,9 +30,9 @@ Introducing the GitHub Follower Notification Action-Bot, your faithful companion
 
 </div>
 
-## 🌱 How to configure for the project for your profile
+## 🌱 How to configure for the project for your profile and email
 
-
+------ **🎥 Follow The Tutorial To Setup you own bot 🎥** ------
 
 https://github.com/Sumonta056/GitHub-Follower-Notification-Action-Bot/assets/61287791/02451256-34ba-4060-8f62-574b6a9206c9
 
