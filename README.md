@@ -24,6 +24,8 @@ Introducing the GitHub Follower Notification Action-Bot, your faithful companion
 
 ------ **🔜 More Information (If anyone start your repository) 🔜** ------
 
+------ **🔜 Quick Emails When Someone Follows You 🔜** ------
+
 <hr>
 
 </div>
