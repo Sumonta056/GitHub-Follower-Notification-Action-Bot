@@ -30,6 +30,12 @@ Introducing the GitHub Follower Notification Action-Bot, your faithful companion
 
 ## 🌱 How to configure for the project for your profile
 
+
+
+https://github.com/Sumonta056/GitHub-Follower-Notification-Action-Bot/assets/61287791/02451256-34ba-4060-8f62-574b6a9206c9
+
+
+
 <hr>
 
 ### 1️⃣ Step - 1 : Fork The Repository
