@@ -1,0 +1,10 @@
+🌱 My journey on GitHub started as a platform for both development and academic purposes. I've been active on the platform for quite some time now.  Increasing my GitHub followers has been a personal goal, as their engagement matters to me. However, once I noticed a gap: there was no system to track daily follower fluctuations or receive notifications about them.
+
+So, I created a project which gives a simple yet powerful solution to streamline your GitHub follower tracking! With this automation, you'll receive 🔔 daily updates on your follower count straight to your personal email.
+
+I've also included documentation on how to use this project for your own GitHub account, ensuring you stay informed about follower updates. Additionally, a video demonstration has been provided for better understanding. You can also contribute to project for more feature addition.
+
+⚙️ Technology Used: Python and GitHub Workplace
+📚 GitHub Repository Link: https://github.com/Sumonta056/GitHub-Follower-Notification-Action-Bot
+🎥 YouTube Tutorial Link: https://youtu.be/yg-PUbzCRHM
+🔗 Documentation Link: https://github.com/Sumonta056/GitHub-Follower-Notification-Action-Bot/blob/main/README.md
